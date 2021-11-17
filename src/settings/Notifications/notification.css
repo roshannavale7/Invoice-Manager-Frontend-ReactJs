@@ -1,0 +1,15 @@
+/* .notification-container {
+    display: flex;
+    flex-direction: column;
+} */
+
+.notification-searchBox{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+
+
+.notification-table {
+    width: 100%;
+}

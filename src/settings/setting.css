@@ -1,0 +1,44 @@
+.container {
+    background-color:rgb(251, 252,255);
+    margin-left: 25px;
+}
+.main-heading{
+    margin: 50px;
+    padding-top: 20px;
+}
+
+.container-left_sidebar {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: white;
+    max-width: 250px;
+    height: max-content;
+    margin-left: 25px;
+}
+.sidebar-icon {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    color: blue;
+}
+.menu-items {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-item a{
+    color: rgb(49,49,49);
+    text-decoration: none;
+}
+.menu-item:hover a{
+    color:blue;
+}
+.feather {
+    color: black;
+}
+.feather-chevron-right {
+    margin-right: 5px;
+}

@@ -1,0 +1,14 @@
+.tax-searchBox{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+.tax-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.tax-table {
+    width: 100%;
+}

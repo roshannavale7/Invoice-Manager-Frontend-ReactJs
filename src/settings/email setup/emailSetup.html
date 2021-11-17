@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+    <link rel="stylesheet" href="emailSetup.css">
+</head>
+<body>
+    <div class="email-container">
+        <div class="email-heading heading">
+            <h2>Email Setup</h2>
+        </div>
+        <hr>
+
+        <div class="email-boxes">
+            <label for="emailSettingsFromName" class="email-box_name">Email sent from name
+            </label> 
+            <input type="text" required="required" placeholder="Type email sent from name" autocomplete="off" class="form-control ">
+        </div>
+        <div class="email-boxes">
+            <label for="emailSettingsFromName" class="email-box_email">Email sent from email
+            </label> 
+            <input type="text" required="required" placeholder="Type email sent from email" autocomplete="off" class="form-control ">
+        </div>
+        <div class="email-boxes">
+            <label for="emailSettingsProvider" class="email-box_Provider">Supported Mail Service
+            </label> 
+            <select id="emailSettingsProvider">
+                <option value>Choose one </option>
+                <option value="amazon-ses">Amazon SES </option>
+                <option value="mailgun">Mailgun </option>
+                <option value="smpt">SMPT </option>
+                <option value="sendmail">Sendmail </option>
+            </select>
+        </div>
+        <div class="page-button btn">
+            <button>Save</button>
+        </div>
+    
+    </div>
+
+</body>
+</html>
