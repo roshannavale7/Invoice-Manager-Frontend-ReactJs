@@ -8,7 +8,8 @@ export default function Topbar() {
     <div className="topbar">
       <div className="topbarWrapper">
           <div className="topLeft">
-              <img src="https://billar.gainhq.com/images/logo.png" alt="img" className="logo" />          </div>
+              <img src="https://billar.gainhq.com/images/logo.png" alt="img" className="logo" />          
+              </div>
           <div className="topRight">
               <div className="topbarIconContainer">
                   <NotificationsNone/>

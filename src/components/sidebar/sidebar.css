@@ -1,6 +1,7 @@
 .sidebar{
     flex: 1;
     height: 92vh;
+    width:30%;
     position: fixed;
     background-color: #2b303b;
     color: white;
