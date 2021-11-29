@@ -1,0 +1,8 @@
+.products__details{
+  flex: 5;
+}
+
+.container{
+  display: flex;
+  margin-top: 10px;
+}
