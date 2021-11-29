@@ -8,7 +8,7 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           <h3 className="sidebarItems active"><Dashboard className="sidebarIcons"/>Dashboard</h3>
           <h3 className="sidebarItems"><People className="sidebarIcons"/>Clients</h3>
-          <h3 className="sidebarItems"><Description className="sidebarIcons"  to='InvoiceTable'/>Invoices</h3>
+          <h3 className="sidebarItems"><Description className="sidebarIcons"/>Invoices</h3>
           <h3 className="sidebarItems"><Payment className="sidebarIcons"/>Payments</h3>
           <h3 className="sidebarItems"><LocalMall className="sidebarIcons"/>Products</h3>
           <h3 className="sidebarItems"><Assessment className="sidebarIcons"/>Reports</h3>
